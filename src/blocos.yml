@@ -1,0 +1,21 @@
+#Crie vários blocos de venda!
+Blocos:
+  Ouro:
+    Material: 'GOLD_BLOCK'
+    Nome: '&eBloco de Ouro' #Para aparecer na mensagem
+    Valor: 100 #O quanto ele vale
+    XP: 10 #O quanto de xp ele vai dar (XP Vanilla)
+    McMMO: 1 #Skill "MINING" do "McMMO"
+    Fortuna: true #Pegará a fortuna do jogador e multiplicará pelo valor
+    Recompensas: #Coloque quantas recompensas quiser, configure as recompensas em [ recompensas.yml ]
+      - 'r1'
+  Diamante:
+    Material: 'DIAMOND_BLOCK'
+    Nome: '&bBloco de Diamante'
+    Valor: 250
+    XP: 10
+    McMMO: 2
+    Fortuna: true
+    Recompensas:
+      - 'r1'
+      - 'r2'

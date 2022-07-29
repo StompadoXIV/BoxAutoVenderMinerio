@@ -1,0 +1,5 @@
+name: BoxAutoVenderMinerio
+version: 1.0.0
+author: Stompado
+depend: [Vault]
+main: me.autovenderminerio.BoxAutoVenderMinerio

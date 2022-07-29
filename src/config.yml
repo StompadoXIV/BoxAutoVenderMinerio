@@ -1,0 +1,46 @@
+#################################################
+#               BoxAutoVenderMinerio            #
+#               Plugin by: Stompado             #
+#            Plugin exclusivo da BoxStore       #
+#               © Copyright BoxStore            #
+#################################################
+
+#Mundos onde não virá o money
+MundosBloqueados:
+  - 'PlotWorld'
+
+#Mensagens gerais
+Mensagens:
+  AoVender:
+    ActionBar: true
+    Mensagem: '&e&lMINA &8» &aVocê quebrou &71x &e{bloco} &ae ganhou &e{coins} &ade &eCoins&a. Bonus&7: {bonus}'
+
+BonusFormato: "&a+{quantia} &e{porcentagem}% {grupo}"
+
+Formatacao: #Altere e adicione quantas formatações quiser
+  - '' #Deixe vazio
+  - 'K'
+  - 'M'
+  - 'B'
+  - 'T'
+  - 'Q'
+  - 'QQ'
+  - 'S'
+  - 'SS'
+  - 'OC'
+  - 'N'
+  - 'D'
+  - 'UN'
+  - 'DD'
+  - 'TR'
+  - 'QR'
+  - 'QD'
+  - 'SD'
+  - 'SPD'
+  - 'OD'
+  - 'ND'
+  - 'VG'
+  - 'UVG'
+  - 'DVG'
+  - 'TVG'
+  - 'QTV'

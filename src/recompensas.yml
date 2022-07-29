@@ -1,0 +1,26 @@
+#Crie quantas recompensas quiser!
+Recompensas:
+  r1:
+    Chance: 40 #A chance de vir a recompensa
+    Titulos:
+      Ativar: true
+      Titulo: '&6&lRECOMPENSA'
+      SubTitulo: '&fVocê ganhou &e100 &fde &eCoins&f!'
+    Sons:
+      Ativar: true
+      Som: 'LEVEL_UP'
+    Comandos:
+      - 'money give {jogador} 50' #Você pode usar "{jogador}, {player} e %player%" para identificar o jogador
+      - 'money give {player} 50'
+  r2:
+    Chance: 25
+    Titulos:
+      Ativar: true
+      Titulo: '&6&lRECOMPENSA'
+      SubTitulo: '&fVocê ganhou &e200 &fde &eCoins&f!'
+    Sons:
+      Ativar: true
+      Som: 'LEVEL_UP'
+    Comandos:
+      - 'money give {jogador} 100'
+      - 'money give {player} 100'
